@@ -1,0 +1,11 @@
+name: MyPlugin
+version: 1.0
+main: overenchant.Main
+api-version: 1.19
+commands:
+  giveoverenchant:
+    description: Gives the Overenchant item
+    usage: /giveoverenchant
+    permission: overenchant.give
+events:
+  PlayerJoinEvent: com.example.myplugin.listeners.PlayerJoinListener
